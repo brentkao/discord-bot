@@ -47,15 +47,15 @@ PORT=3000
 
 ## 📦 NPM 指令介紹
 
-| 指令                | 說明                                         |
-| ------------------- | -------------------------------------------- |
-| `npm run dev`       | 使用 `ts-node --esm` 搭配 `nodemon` 即時開發 |
-| `npm run build`     | 編譯 TypeScript 到 `dist/`                   |
-| `npm start`         | 執行編譯後的 `dist/index.js`                 |
-| `npm run lint`      | 執行 ESLint 檢查                             |
-| `npm run lint:fix`  | 自動修復可解決的 ESLint 問題                 |
-| `npm run format`    | 使用 Prettier 格式化整個專案                 |
-| `npm run precommit` | 格式化 + 修復（通常用於 Git hook）           |
+| 指令                | 說明                                                                  |
+| ------------------- | --------------------------------------------------------------------- |
+| `npm run dev`       | 持續編譯 TypeScript 並由 `nodemon` 監控執行編譯後的程式，實現即時開發 |
+| `npm run build`     | 編譯 TypeScript 到 `dist/`                                            |
+| `npm start`         | 執行編譯後的 `dist/index.js`                                          |
+| `npm run lint`      | 執行 ESLint 檢查                                                      |
+| `npm run lint:fix`  | 自動修復可解決的 ESLint 問題                                          |
+| `npm run format`    | 使用 Prettier 格式化整個專案                                          |
+| `npm run precommit` | 格式化 + 修復（通常用於 Git hook）                                    |
 
 ---
 

@@ -41,7 +41,7 @@ async function bootstrap() {
     // 👉 之後可以接 eventHandler(client)、metrics.init()、jobQueue.init()
     // e.g., eventHandler(client);
   } catch (error) {
-    console.error('🛑 系統初始化失敗，強制退出');
+    console.error('🛑 系統初始化失敗，強制退出', error);
     process.exit(1);
   }
 }
